@@ -116,7 +116,7 @@ const App = () => {
               <a href="#services" className="hover:text-indigo-600 transition-colors">Services</a>
               <a href="#projects" className="hover:text-indigo-600 transition-colors">Projects</a>
               <a href="#about" className="hover:text-indigo-600 transition-colors">Why Me?</a>
-              <a href="./assets/resume.pdf" download className="px-5 py-2.5 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition-all shadow-sm">Download CV</a>
+              <a href="resume.pdf" download className="px-5 py-2.5 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition-all shadow-sm">Download CV</a>
             </div>
 
             {/* Mobile menu button */}
@@ -132,7 +132,7 @@ const App = () => {
             <a href="#services" onClick={() => setIsMenuOpen(false)}>Services</a>
             <a href="#projects" onClick={() => setIsMenuOpen(false)}>Projects</a>
             <a href="#about" onClick={() => setIsMenuOpen(false)}>Why Me?</a>
-            <a href="./assets/resume.pdf" download onClick={() => setIsMenuOpen(false)} className="bg-indigo-600 text-white p-3 rounded-lg text-center">Download CV</a>
+            <a href="resume.pdf" download onClick={() => setIsMenuOpen(false)} className="bg-indigo-600 text-white p-3 rounded-lg text-center">Download CV</a>
           </div>
         )}
       </nav>
